@@ -5,6 +5,19 @@
 			<ChildrenList>
 				<Sound Name="Tom_Bitkits_02" ID="{CA60EE39-3BA3-473E-86A0-673DE102DD61}" ShortID="1004875580">
 					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{F2E239DE-50D9-4FA3-9661-B5345472594E}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="1137"/>
+											<Property Name="Min" Type="Real64" Value="-1213"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-8</Value>

@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7CAB1578-D4B4-4B43-9E36-8958C8E89A0E}" SchemaVersion="94">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{7CAB1578-D4B4-4B43-9E36-8958C8E89A0E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7CAB1578-D4B4-4B43-9E36-8958C8E89A0E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Tom_Bitkits_02" ID="{CA60EE39-3BA3-473E-86A0-673DE102DD61}" ShortID="1004875580">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{874B3A42-1EAE-4885-8770-CFCCC76ABAB3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{31952EC1-07A8-4CEC-A5E3-34F1C3CA52AC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Tom_Bitkits_02" ID="{B40885C1-3780-4771-A9C9-9C4CBDAB7F41}" ShortID="24999651">
+							<Language>SFX</Language>
+							<AudioFile>Tom_Bitkits_02.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Tom_Bitkits_02" ID="{B40885C1-3780-4771-A9C9-9C4CBDAB7F41}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
